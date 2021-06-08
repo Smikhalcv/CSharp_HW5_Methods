@@ -20,7 +20,7 @@ namespace Task5_FunctionAckerman
                 try
                 {
                     number = Convert.ToInt32(Console.ReadLine());
-                    if (number > 0)
+                    if (number >= 0)
                     {
                         break;
                     }
